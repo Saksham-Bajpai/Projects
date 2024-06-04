@@ -9,7 +9,6 @@ import 'package:charity_reads_1/buyer/views/home_screen/home_screen.dart';
 import 'package:charity_reads_1/buyer/views/products_screen/product_screen.dart';
 import 'package:charity_reads_1/buyer/views/profile_screen/profile_screen.dart';
 import 'package:charity_reads_1/buyer/widgets_common/exit_dialog.dart';
-import 'package:charity_reads_1/ebooks/view/main_tab/main_tab_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
