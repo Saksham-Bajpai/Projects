@@ -1,0 +1,84 @@
+{
+  "categories":[
+    {
+      "name": "Fiction",
+      "subcategory": [
+        "Science Fiction",
+        "Mystery Fiction",
+        "Thriller",
+        "Crime/Suspense"
+      ]
+    },
+    {
+      "name": "Non-Fiction",
+      "subcategory": [
+      "Biographies",
+      "Autobiographies",
+      "Literary Trilogies"
+        ]
+    },
+    {
+      "name": "Children's Books",
+      "subcategory": [
+        "Picture Books",
+        "Alphabet Books",
+        "Pop Up Books"
+      ]
+    },
+    {
+      "name": "Finance",
+      "subcategory": [
+        "Money",
+        "Accounting",
+        "Sales",
+        "Business Studies"
+      ]
+    },
+    {
+      "name": "Sales",
+      "subcategory": [
+      "Cookbooks",
+      "Baking Books",
+      "Healthy Eating"
+        ]
+    },
+    {
+      "name": "Thriller",
+      "subcategory": [
+        "Contemporary Romance",
+        "Historical Romance",
+        "Paranormal Romance"
+      ]
+    },
+    {
+      "name": "BSC Books",
+      "subcategory": [
+        "Zoology",
+        "Botany",
+        "Chemistry",
+        "Life Science"
+      ]
+    },
+    {
+      "name": "Personal Development",
+      "subcategory": [
+      "Negotiation",
+      "Sales",
+      "Body Language"
+        ]
+    },
+    {
+      "name": "Btech Books",
+      "subcategory": [
+        "CS & IT Engineering",
+        "AI & ML Engineering",
+        "Civil Engineering",
+        "EC Engineering"
+      ]
+    }
+  ]
+}
+
+
+
+
