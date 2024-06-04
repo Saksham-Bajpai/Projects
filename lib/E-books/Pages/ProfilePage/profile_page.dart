@@ -3,7 +3,6 @@ import 'package:charity_reads_1/E-books/Components/back_button.dart';
 import 'package:charity_reads_1/E-books/Components/book_tile.dart';
 import 'package:charity_reads_1/E-books/Components/primary_button.dart';
 import 'package:charity_reads_1/E-books/Config/colors.dart';
-import 'package:charity_reads_1/E-books/Controller/auth_controller.dart';
 import 'package:charity_reads_1/E-books/Controller/book_controller.dart';
 import 'package:charity_reads_1/E-books/Models/data.dart';
 import 'package:charity_reads_1/E-books/Pages/AddNewBook/add_new_book.dart';

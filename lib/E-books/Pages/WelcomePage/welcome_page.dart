@@ -1,5 +1,4 @@
 import 'package:charity_reads_1/E-books/Components/primary_button.dart';
-import 'package:charity_reads_1/E-books/Controller/auth_controller.dart';
 import 'package:charity_reads_1/E-books/Pages/Homepage/home_page.dart';
 import 'package:charity_reads_1/buyer/consts/consts.dart';
 import 'package:charity_reads_1/buyer/controllers/auth_controller.dart';

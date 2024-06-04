@@ -1,7 +1,6 @@
 
 import 'package:charity_reads_1/E-books/Components/back_button.dart';
 import 'package:charity_reads_1/E-books/Config/colors.dart';
-import 'package:charity_reads_1/E-books/Controller/auth_controller.dart';
 import 'package:charity_reads_1/E-books/Pages/ProfilePage/profile_page.dart';
 import 'package:charity_reads_1/buyer/controllers/auth_controller.dart';
 import 'package:flutter/material.dart';
