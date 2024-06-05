@@ -93,12 +93,12 @@ class ProfilePage extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 20),
-                      Text(
-                        authController.getCurrentUserDisplayName() ?? 'Unknown User',
-                         // "${authController.auth.currentUser!.displayName}",
-                        style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                            color: Theme.of(context).colorScheme.background),
-                      ),
+                      // Text(
+                      //   authController.getCurrentUserDisplayName() ?? 'Saksham Bajpai',
+                      //    // "${authController.auth.currentUser!.displayName}",
+                      //   style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                      //       color: Theme.of(context).colorScheme.background),
+                      // ),
                       Text(
                           authController.getCurrentUserEmail() ?? 'Unknown Email',
                         style:

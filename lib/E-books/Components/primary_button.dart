@@ -27,7 +27,8 @@ class PrimaryButton extends StatelessWidget {
                 color: backgroundColour,
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Image.asset("assets/Assets/Icons/google.png"),
+              //child: Image.asset("assets/Assets/Icons/google.png"),
+              child: Icon(Icons.book),
             ),
             const SizedBox(width: 10),
             Text(

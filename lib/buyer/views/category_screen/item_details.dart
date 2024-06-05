@@ -52,7 +52,7 @@ class ItemDetails extends StatelessWidget {
                     }
                   },
                   icon: Icon(
-                    Icons.favorite_outlined,
+                    Icons.favorite,
                     color: controller.isFav.value ? redColor : darkFontGrey,
                   )),
             ),

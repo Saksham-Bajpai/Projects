@@ -43,22 +43,51 @@ class FirestoreServices {
   }
 
   static getAllOrders() {
-    return firestore.collection(ordersCollection).where('order_by',isEqualTo: currentUser!.uid).snapshots();
+    return firestore
+        .collection(ordersCollection)
+        .where('order_by', isEqualTo: currentUser!.uid)
+        .snapshots();
   }
 
   static getWishlists() {
-    return firestore.collection(productsCollection).where('p_wishlist',arrayContains: currentUser!.uid).snapshots();
+    return firestore
+        .collection(productsCollection)
+        .where('p_wishlist', arrayContains: currentUser!.uid)
+        .snapshots();
   }
 
-  static getAllMessages(docId) {
-    return firestore
-        .collection(chatCollection)
-        .doc(docId)
-        .snapshots();
+  static getAllMessages() {
+    return firestore.collection(chatCollection).where('fromId', isEqualTo: currentUser!.uid).snapshots();
   }
 
   static allProducts() {
     return firestore.collection(productsCollection).snapshots();
   }
 
+  static getCounts() async {
+    var res = await Future.wait([
+      firestore
+          .collection(cartCollection)
+          .where('added_by', isEqualTo: currentUser!.uid)
+          .get()
+          .then((value) {
+       return value.docs.length;
+      }),
+      firestore
+          .collection(productsCollection)
+          .where('p_wishlist', arrayContains: currentUser!.uid)
+          .get()
+          .then((value) {
+        return value.docs.length;
+      }),
+      firestore
+          .collection(ordersCollection)
+          .where('order_by', isEqualTo: currentUser!.uid)
+          .get()
+          .then((value) {
+        return value.docs.length;
+      }),
+    ]);
+    return res;
+  }
 }

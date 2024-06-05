@@ -20,8 +20,8 @@ const categoryImages = [imgFc1,imgFc2,imgFc3,imgFc4,imgFc5,imgFc6,imgFc7,imgFc8,
 
 const itemDetailsButtonsList = [video,reviews,sellerPolicy,returnPolicy,supportPolicy];
 
-const profileButtonsIconsList = [icOrders,icHeart,icMessages];
-const profileButtonsList = [orders,wishlist,messages];
+const profileButtonsIconsList = [icCart,icHeart,icMessages];
+const profileButtonsList = [cart,wishlist,messages];
 
 const popupMenuIcons = [Icons.featured_play_list,Icons.edit,Icons.delete];
 const popupMenuTitles = [featured,edit,remove];

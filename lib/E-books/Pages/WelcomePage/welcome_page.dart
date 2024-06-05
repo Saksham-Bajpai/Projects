@@ -92,7 +92,7 @@ class WelcomePage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(10),
             child: PrimaryButton(
-              btnName: "LOGIN WITH GOOGLE",
+              btnName: "LOGIN TO E-BOOKS",
               ontap: () {
                 // authController.loginWithEmail();
                 Get.to(const HomePage());
